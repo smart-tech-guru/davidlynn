@@ -1495,15 +1495,20 @@
             <div class="flex flex-col gap-5 lg:gap-9">
               <div class="text-sm md:text-xl flex flex-col gap-1">
                 <div class="text-gray-500">Email:</div>
-                <span id="email" class="email">suiko4942@gmail.com</span>
+                <a href="mailto:suiko4942@gmail.com"><span id="email" class="email">suiko4942@gmail.com</span></a>
               </div>
               <div class="text-sm md:text-xl flex flex-col gap-1">
                 <div class="text-gray-500">Address:</div>
-                <span id="address" class="address">Milosa obrenovica 023, Obrenovac 11500, Serbia</span>
+                <address id="address" itemscope itemtype="http://schema.org/PostalAddress" class="address">
+                  <span itemprop="streetAddress">Milosa obrenovica 023</span>,&nbsp;
+                  <span itemprop="addressLocality">Obrenovac</span>,&nbsp;
+                  <span itemprop="postalCode">11500</span>,&nbsp;
+                  <span itemprop="addressCountry">Serbia</span>
+                </address>
               </div>
               <div class="text-sm md:text-xl flex flex-col gap-1">
                 <div class="text-gray-500">Phone:</div>
-                <span id="phone" class="phone">+381 637385116</span>
+                <a href="tel:+381637385116" role="phone"><span id="phone" class="phone">+381 637385116</span></a>
               </div>
             </div>
             <div class="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
